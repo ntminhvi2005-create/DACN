@@ -1,6 +1,14 @@
 # Data files (quá lớn)
-data/raw/
-data/processed/*.csv
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.rar
+archive/
+*.ipynb_checkpoints
+
+# Chặn môi trường ảo và thư mục rác
+venv/
+__pycache__/
+.env
 
 # Outputs
 outputs/
